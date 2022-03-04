@@ -6,7 +6,7 @@ This repo contains two scripts:
 
 
 ## Image generation
-To run the script in Illustrator, go to File -> Scripts -> Other script and choose `generate-images.js` 
+To run the script in Illustrator, go to `File -> Scripts -> Other script` and choose `generate-images.js` 
 
 Though we used Illustrator for our purpoeses, there are other Adobe products that allow for running JS scripts within the program. For instance, we could write a script with similar logic and run it in After Effects. It'd be cool to see some more animation NFTs :)
 
