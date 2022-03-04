@@ -51,7 +51,7 @@ function chooseBackground() {
 const backgroundLayer = ["green", "blue"]
 
 // Top layer
-const friendLayer = app.activeDocument.layers.getByName("friend");
+const friendLayer = app.activeDocument.layers.getByName("Friend");
 
 const groups = friendLayer.groupItems;
 
