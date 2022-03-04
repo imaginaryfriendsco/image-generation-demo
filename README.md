@@ -8,7 +8,7 @@ This repo contains two scripts:
 ## Image generation
 To run the script in Illustrator, go to `File -> Scripts -> Other script` and choose `generate-images.js` 
 
-Though we used Illustrator for our purpoeses, there are other Adobe products that allow for running JS scripts within the program. For instance, we could write a script with similar logic and run it in After Effects. It'd be cool to see some more animation NFTs :)
+Though we used Illustrator for our purposes, there are other Adobe products that allow for running JS scripts within the program. For instance, we could write a script with similar logic and run it in After Effects. It'd be cool to see some more animation NFTs :)
 
 ### Attributes
 In the script, we demo three different attributes: `glasses`, `body accessory`, and `background`. 
@@ -23,13 +23,11 @@ The first three in the array `"3D", "clout", "shuttershades"` should match up wi
 
 Note that the last element in the array `"none"` does not correspond to a layer name. The code dictates that if we choose `"none"` (via a random function), we will generate an image without any glasses.
 
-
 ### Uniqueness 
 Each image is represented by randomly combined attributes. An image only gets created if none of the other previously created images have that combination of attributes, guaranteeing its uniqueness. 
 
 ### File naming
 The images files are named by concatenating all of the image's attributes. For instance, an image containing shuttershades, a fanny pack, and a blue background would be saved as `shuttershades+fanny-pack+blue.png`. This naming convention will be important when we generate the metadata.
-
 
 ## Metadata generation
 Assuming these images will be used for NFTs, we will also need to generate the metadata for them. More info about metadata standards can be found [here](https://docs.opensea.io/docs/metadata-standards).
