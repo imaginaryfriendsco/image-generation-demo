@@ -7,7 +7,7 @@ friend_metadata = []
 
 count = 0
 
-for f in os.listdir(source):
+for f in os.listdir(source_images):
 	if f.startswith("."):
 		continue
 
@@ -31,7 +31,7 @@ for f in os.listdir(source):
 	friend["attributes"] = attributes
 	friend_metadata.append(friend)
 
-	shutil.copyfile(source + filename, destination + friend_name)
+	shutil.copyfile(source_images + filename, destination_images + friend_name)
 	count += 1
 
 friends = {"friends": friend_metadata}
